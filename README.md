@@ -16,15 +16,17 @@ Slide from NTU李弘毅老師
 
 ## Task (depend on kind of question to be adressed)
 * Regression
- * Data with numeric size relationship
- * Ex. Age, Price
+  * Data with numeric size relationship
+  * Ex. Age, Price
+
 * Classification
- * Data without numeric size relationship
- * Ex. Color, Mortality
+  * Data without numeric size relationship
+  * Ex. Color, Mortality
+
 * Structured (structured input/output)
-  * Speech Recognition (Voice to Sentense)
-  * Translation (Chinese to English)
-  * etc.
+   * Speech Recognition (Voice to Sentense)
+   * Translation (Chinese to English)
+   * etc.
 
 ## Method (mathematic algorithm)
 * Linear Model
