@@ -50,8 +50,11 @@ Slide from NTU李弘毅老師
 
 ### Unsupervised Learning
 **Unlabeled data**
-* Cluster
-* Machine Drawing (GAN)
+* Clustering
+* Dimention reduction
+* Generation (GAN)
+* Word Embedding
+* Multi-lingual Embedding
 * etc.
 
 ### Reinforcement Learning
@@ -60,6 +63,7 @@ Slide from NTU李弘毅老師
 ## Supervised vs Reinforcement
 * Supervised: Learn from teacher (label)
 * Reinforcement: Learn from score feedbacked from environment
+  * Reward delay issue
 
 ## Logistic Regression vs Linear Regression
 * Logistic Regression: Cross-entropy as loss function
@@ -80,6 +84,15 @@ Slide from NTU李弘毅老師
 * Do not always blame Overfitting!
   * Could be not well-trained
 * Dropout is a kind of Ensemble
+
+## More notes
+* Deep Learning: each neuron serves as a module to provide specific function (Modulization)
+* End-to-end Learning
+  * A very complex model, consists of many simple function, as a product line
+* Emsemble Boosting: Improving weak classifiers
+  * AdaBoost
+  * Gradient Boosting
+  * etc.
 
 
 
