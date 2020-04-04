@@ -1,4 +1,4 @@
-# ML and DL study
+# ML and DL
 
 Overview and some notes
 
@@ -81,11 +81,43 @@ Slide from NTU李弘毅老師
 ## Recipe of Deep Learning
 ![](https://raw.githubusercontent.com/lennox0909/ML_and_DL_basic/master/slides/recipe_of_deep_learning_1.JPG)
 ![](https://raw.githubusercontent.com/lennox0909/ML_and_DL_basic/master/slides/recipe_of_deep_learning_2.JPG)
+Slide from NTU李弘毅老師
 * Do not always blame Overfitting!
   * Could be not well-trained
 * Dropout is a kind of Ensemble
 
-## More notes
+## Validation Error
+
+**It's a trade-off between `Bias` & `Variance`**
+
+* Error from **Bias**: Distances between Predictions & Ground Truth
+* Error from **Variance**: Scope of Predictions
+
+* **Simpler model** is less influenced by the sampled data
+  * less influenced by input noise
+  * small `variance`, large `bias`
+
+* **Complex model** 
+  * small `bias`, large `variance`
+  
+* Large Bias: **Underfitting**
+* Large Variance: **Overfitting**
+
+## What to do with large Variance?
+* More data!!!
+* Augmentation
+* Regularization
+  * smooth the ouputs of model
+  * decrease function space
+  * may lead to higher `bias`
+  
+## N-Fold Cross Validation
+**To determine a better model**
+
+![n_fold_cross_validation](https://raw.githubusercontent.com/lennox0909/ML_and_DL_basic/master/slides/n_fold_cross_validation.JPG)
+Slide from NTU李弘毅老師
+
+## More
 * Deep Learning: each neuron serves as a module to provide specific function (Modulization)
 * End-to-end Learning
   * A very complex model, consists of many simple function, as a product line
