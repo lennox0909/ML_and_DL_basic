@@ -14,7 +14,7 @@ Slide from NTU李弘毅老師
 * Reinforcement Learning
 * Transfer Learning
 
-## Task (depend on kind of question to be adressed)
+## Task (depend on kind of question to be addressed)
 * Regression
   * Data with numeric size relationship
   * Ex. Age, Price
